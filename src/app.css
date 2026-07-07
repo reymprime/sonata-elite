@@ -1,0 +1,4 @@
+/* Tailwind v4 first, then the Sonata "Ultra Luxury Premium" design system.
+   Loading order matters: Sonata's own rules win over Tailwind's preflight. */
+@import "tailwindcss";
+@import "./styles/sonata.css";
